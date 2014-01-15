@@ -32,5 +32,5 @@ TARGET_OTA_ASSERT_DEVICE := jflte,jfltexx,i9505,GT-I9505,jgedlte,i9505g,GT-I9505
 # Kernel
 TARGET_KERNEL_CONFIG         := jf_eur_defconfig
 
-# loki FIXME
-##TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/msm8960-common/loki
+# loki
+TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/msm8960-common/loki
