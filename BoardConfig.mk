@@ -27,7 +27,10 @@
 -include vendor/samsung/jfltexx/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := jflte,jfltexx,i9505,GT-I9505,jgedlte,i9505g,GT-I9505G
+TARGET_OTA_ASSERT_DEVICE := jflte,jfltexx,i9505,GT-I9505,jgedlte,i9505g,GT-I9505G,jfltevzw,jfltespr,jfltetmo,jfltecri,jflteatt,jfltecan,jflteusc
 
 # Kernel
 TARGET_KERNEL_CONFIG         := jf_eur_defconfig
+
+# loki FIXME
+##TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/msm8960-common/loki
